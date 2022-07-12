@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 280px;
+}
+
+div.hero-image {
+  background-color: white;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="#home">You're in India</a></li>
+  <li><a href="#news">Our Products</a></li>
+  <li><a href="#contact">Promotions</a></li>
+  <li><a href="#about">Service</a></li>
+  <li><a href="#about">Help</a></li>
+</ul>
+
+<div class="hero-image">
+
+<h1 style="text-align: center;"> Welcome to Standard Chartered</h1>
+<div class="desc">
+<div class="gallery">
+ 
+    <img src="https://av.sc.com/corp-en/content/images/sc-lock-up-english-rgb-thumbnail-278x220.jpg" alt="Cinque Terre" width="600" height="400">
+ 
+  <div class="desc">
+  <h3>Combating the illegal wildlife trade</h3>
+  <p1> description </p1>
+  </div>
+</div>
+
+<div class="gallery">
+  
+    <img src="https://av.sc.com/corp-en/content/images/sc-lock-up-english-rgb-thumbnail-278x220.jpg" alt="Forest" width="600" height="400">
+ 
+  <div class="desc">
+    <h3>Invest like you never left India gain</h3>
+    <p>description</p>
+  </div>
+</div>
+
+<div class="gallery">
+ 
+    <img src="https://av.sc.com/corp-en/content/images/sc-lock-up-english-rgb-thumbnail-278x220.jpg" alt="Northern Lights" width="600" height="400">
+ 
+  <div class="desc">
+  <h3>Explore the world like a local #PayLikeALocal</h3>
+  <p>description</p>
+  </div>
+</div>
+
+<div class="gallery">
+  
+    <img src="https://av.sc.com/corp-en/content/images/sc-lock-up-english-rgb-thumbnail-278x220.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">
+  <h3>SC Edge app - Exclusive for salary accounts</h3>
+  <p>description</p>
+  </div>
+</div>
+<div class="gallery">
+  
+    <img src="https://av.sc.com/corp-en/content/images/sc-lock-up-english-rgb-thumbnail-278x220.jpg" alt="Mountains" width="600" height="400">
+
+  <div class="desc">
+  <h3>Get 5% cashback at supermarket</h3>
+  <h4>description</h4>
+  </div>
+</div>
+</div>
+</div>
+
+</body>
+</html>
